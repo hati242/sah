@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="" lang="tr">
+
+<head>
+    <style type="text/css"></style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta id="Content-Language" http-equiv="Content-Language" content="tr">
+    <meta name="rating" content="general">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="revisit-after" content="1 Days">
+    <link rel="shortcut icon" href="https://www.sahibinden.com/favicon.ico" type="image/x-icon">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title> sahibinden.com - Alışveriş, Sıfır, İkinci El Ürünlerle sahibinden.com'da </title>
+    <link href="assets/tamamlandi/css/common.css" media="screen, print" rel="stylesheet" type="text/css">
+    <link href="assets/tamamlandi/css/payment.css" media="screen, print" rel="stylesheet" type="text/css">
+    <link href="assets/tamamlandi/css/all.css" media="screen, print" rel="stylesheet" type="text/css">
+</head>
+
+<body class="type-individual ios">
+	<style class="ng-scope">
+            .big-image {
+                object-fit: contain;
+                background: white;
+            }
+          </style>
+    <div class="header-banners clearfix">
+        <div class="mast-head-banner">
+        </div>
+        <div class="header-container without-background">
+            <div class="header secure-payment">
+                <p class="clearfix">
+                    <a class="logo" href="https://www.sahibinden.com/" title="sahibinden.com anasayfasına dön" style="pointer-events: none;"> sahibinden.com anasayfasına dön</a>
+                </p>
+                <h1>Ödeme Bilgileri</h1>
+            </div>
+        </div>
+        <div id="container">
+            <link href="assets/tamamlandi/css/dialog.css" type="text/css" rel="stylesheet">
+            <div id="slsDialogFe" class="safe ng-scope">
+                <div ng-include="'/views/myAccount/common/RenewSls/RenewSls.html'" class="ng-scope">
+                    <style class="ng-scope">
+                    </style>
+                </div>
+            </div>
+            <div class="set-payment-container set-payment-active-step-4">
+                <div class="payment-progress">
+                    <div class="bar"></div>
+                    <ul>
+                        <li class="step-0"></li>
+                        <li class="step-1">
+                            <strong>1</strong>
+                            <span>Ürün</span>
+                            <span class="responsive-part">Ürün</span>
+                        </li>
+                        <li class="step-2">
+                            <strong>2</strong>
+                            <span>Adres</span>
+                            <span class="responsive-part">Adres</span>
+                        </li>
+                        <li class="step-3">
+                            <strong>3</strong>
+                            <span>Ödeme</span>
+                            <span class="responsive-part">Ödeme</span>
+                        </li>
+                        <li class="step-4">
+                            <strong>4</strong>
+                            <span class="last">Ödeme Alındı</span>
+                            <span class="responsive-part">Ödeme Alındı</span>
+                        </li>
+                    </ul>
+                </div>
+                <form action="#" method="POST" autocomplete="off">
+                    <div class="set-payment-step-4-detail">
+                        <div class="responsive-part classified-info-part">
+                            <div class="image-part">
+                            <img src="{{ item.images|first }}" alt="" width="50" height="30">
+                                <div class="favorite">
+                                    <h4></h4>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <div class="row first">
+                                    <span class="total-price-area right first total-price item-total-price small-currency price-format-renew">{{ item.price }}<span class="decimal">,00</span><span class="total-price-currency"> TL</span><span class="sum-label"></span></span>
+                                    <div class="left first numeric-input-holder prev-disabled next-disabled disable"></div>
+                                </div>
+                                <div class="seperator"></div>
+                                <div class="row">
+                                    <span class="paris-fee-area right total-price item-total-price small-currency price-format-renew">{{ item.commission }}<span class="decimal">,00</span><span class="total-price-currency"> TL</span><span class="sum-label"></span></span>
+                                    </span>
+                                    <p class="left">S - Param Güvende Hizmet Bedeli</p>
+                                </div>
+                                <div class="seperator"></div>
+                                <div class="row">
+                                    <span class="paris-total-price-area right total-price small-currency price-format-renew">{{ item.total }}<span class="decimal">,00</span><span class="total-price-currency"> TL</span><span class="sum-label"></span></span>
+                                    <p class="left total">Toplam</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="responsive-part cargo-info">
+                            <p> Satıcı&nbsp;3&nbsp;iş günü içinde kargolar.</p>
+                        </div>
+                        <div class="left-box">
+                            <div class="sub-left-box credit-card-box">
+                                <div class="address-header">
+                                    <h3>ÖDEMENİZ KONTROL EDİLİYOR</h3>
+                                </div>
+                                <div class="box-verify">
+                                    <div class="flex2">
+                                        <i class="fas fa-check-circle"></i>
+                                        <p>Siparişiniz alındı</p>
+                                    </div>
+                                    <div class="flex2">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <p style="font-weight: 900; margin: unset; margin-left: 15px;font-size: 16px;">Ödemeniz onaylandıktan sonra siparişiniz onaylanacaktır.</p>
+                                    </div>
+                                    <div class="texts">
+                                        <p>Siparişiniz onaylandıktan sonra kargoya verildiğinde SMS ile sizi bilgilendireceğiz.</p>
+                                        <nav class="details">
+                                            <span>Sipariş Numarası:</span>
+                                            <span>35769421</span>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="right-box">
+            <div class="sub-right-box item">
+                <img class="big-image" src="{{ item.images|first }}" height="220" width="232" alt="">
+                <span>{{ item.name }}</span>
+            </div>
+            <div class="sub-right-box prices">
+                <div class="row">
+                    <span class="total-price-area right unit-price total-price item-total-price small-currency price-format-renew">{{ item.price }}<span class="decimal">,00</span><span class="total-price-currency"> TL</span><span class="sum-label"></span></span>
+
+                    <div class="left unit numeric-input-holder prev-disabled next-disabled disable">
+                    </div>
+                </div>
+                <div class="seperator"></div>
+                <div class="row">
+                    <span class="paris-fee-area right high total-price item-total-price small-currency price-format-renew">{{ item.commission }}<span class="decimal">,00</span><span class="total-price-currency"> TL</span><span class="sum-label"></span></span>
+                    <p class="left">S - Param Güvende Hizmet Bedeli</p>
+                </div>
+                <div class="seperator"></div>
+                <div class="total-cost-container row">
+                    <span id="parisTotalCostSpan" class="paris-total-price-area right total-price small-currency price-format-renew">{{ item.total }}<span class="decimal">,00</span><span class="total-price-currency"> TL</span><span class="sum-label"></span></span>
+                    <p class="left total">Toplam</p>
+                </div>
+            </div>
+            <div class="sub-right-box cargo-info">
+                <p>Satıcı&nbsp;3&nbsp;iş günü içinde kargolar.</p>
+            </div>
+            </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerContainer footer-container ">
+        <div class="footer phdef pvdef clearfix">
+            <ul class="footerMenu footer-menu">
+                <li>
+                    <h2>Kurumsal</h2>
+                    <ul>
+                        <li>
+                            <a href="#/hakkimizda/" title="Hakkımızda">
+                        Hakkımızda</a>
+                        </li>
+                        <li>
+                            <a href="https://insankaynaklari.sahibinden.com/" title="İnsan Kaynakları">
+                        İnsan Kaynakları</a>
+                        </li>
+                        <li>
+                            <a href="#/haberler/" title="Haberler">
+                        Haberler</a>
+                        </li>
+                        <li>
+                            <a rel="nofollow no-follow" href="#/iletisim/" title="İletişim">
+                        İletişim</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Hizmetlerimiz</h2>
+                    <ul>
+                        <li>
+                            <a href="#/doping-tanitim/" title="Doping">
+                        Doping</a>
+                        </li>
+                        <li>
+                            <a href="#/param-guvende/bireysel" title="S - Param Güvende" corporate-href="#/param-guvende/kurumsal">
+                        S - Param Güvende</a>
+                        </li>
+                        <li>
+                            <a href="#/guvenli-e-ticaret" title="Güvenli e-Ticaret (GeT)">
+                        Güvenli e-Ticaret (GeT)</a>
+                        </li>
+                        <li>
+                            <a href="#/toplu-urun-girisi" title="Toplu Ürün Girişi">
+                        Toplu Ürün Girişi</a>
+                        </li>
+                        <li>
+                            <a href="#/reklam/" title="Reklam">
+                        Reklam</a>
+                        </li>
+                        <li>
+                            <a href="#/sahibinden-dogal-reklam/" title="sahibinden Doğal Reklam">
+                        sahibinden Doğal Reklam</a>
+                        </li>
+                        <li>
+                            <a href="#/mobil" title="Mobil">
+                        Mobil</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Mağazalar</h2>
+                    <ul>
+                        <li>
+                            <a href="#/neden-magaza" title="Neden Mağaza?">
+                        Neden Mağaza?</a>
+                        </li>
+                        <li>
+                            <a href="#/magaza-ac?sizi-arayalim" title="Mağaza Açmak İstiyorum">
+                        Mağaza Açmak İstiyorum</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Gizlilik ve Kullanım</h2>
+                    <ul>
+                        <li>
+                            <a href="#/guvenli-alisverisin-ipuclari/" title="Güvenli Alışverişin İpuçları">
+                        Güvenli Alışverişin İpuçları</a>
+                        </li>
+                        <li>
+                            <a href="#/sozlesmeler/" title="Sözleşmeler ve Kurallar">
+                        Sözleşmeler ve Kurallar</a>
+                        </li>
+                        <li>
+                            <a href="#/sozlesmeler/bireysel-uyelik-sozlesmesi-0" title="Üyelik Sözleşmesi">
+                        Üyelik Sözleşmesi</a>
+                        </li>
+                        <li>
+                            <a href="#/sozlesmeler/kullanim-kosullari-35" title="Kullanım Koşulları">
+                        Kullanım Koşulları</a>
+                        </li>
+                        <li>
+                            <a href="#/site-haritasi" title="Site Haritası">
+                        Site Haritası</a>
+                        </li>
+                        <li>
+                            <a href="#/sozlesmeler/kisisel-verilerin-korunmasi-58" title="Kişisel Verilerin Korunması">
+                        Kişisel Verilerin Korunması</a>
+                        </li>
+                        <li>
+                            <a href="https://yardim.sahibinden.com/hc/tr" title="Yardım ve İşlem Rehberi">
+                        Yardım ve İşlem Rehberi</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="followUs follow-us">
+                    <h2>Bizi Takip Edin</h2>
+                    <ul>
+                        <li>
+                            <a title="Facebook" target="_blank" href="https://www.facebook.com/sahibindencom">Facebook</a>
+                        </li>
+                        <li>
+                            <a title="Twitter" target="_blank" href="https://www.twitter.com/sahibindencom">Twitter</a>
+                        </li>
+                        <li>
+                            <a title="Linkedin" target="_blank" href="https://www.linkedin.com/company/sahibinden-com">Linkedin</a>
+                        </li>
+                        <li>
+                            <a title="Instagram" target="_blank" href="https://www.instagram.com/sahibindencom/">Instagram</a>
+                        </li>
+                        <li>
+                            <a title="Youtube" target="_blank" href="https://www.youtube.com/user/sahibindencom">Youtube</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="clearfix help-center-and-language">
+                <ul class="contact-menu">
+                    <li class="call-center">
+                        <p>7/24 Müşteri Hizmetleri</p>
+                        <span>0 850 222 44 44</span>
+                    </li>
+                    <li class="help-center">
+                        <p>Yardım Merkezi</p>
+                        <a href="https://yardim.sahibinden.com/hc/tr" title="yardim.sahibinden.com">yardim.sahibinden.com</a>
+                    </li>
+                    <!--<li class="store-logos">
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.sahibinden" class="store-logo googleplay" title="sahibinden.com"></a><a target="_blank" href="https://itunes.apple.com/tr/app/sahibinden.com-mobil/id418535251?mt=8" class="store-logo apple" title="sahibinden.com"></a>
+            </li>-->
+                    <li class="security-sign-footer">
+                        <a target="_blank" href="https://www.guvendamgasi.org.tr/firmadetay.php?Guid=25680f1d-270b-11ea-991b-48df373f4850" class="security-sign"></a>
+                    </li>
+                </ul>
+                <div class="language-selection">
+                    <div class="current-language">
+                        <div class="label">Dil Seçimi (Language)</div>
+                        <div class="selected-text tr">Türkçe (Turkish)</div>
+                    </div>
+                    <div class="language-list">
+                        <a rel="nofollow" href="#" title="English" class="language-selection-link en">
+                            İngilizce (English)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="etbis-footer">
+                <a href="https://etbis.eticaret.gov.tr/sitedogrulama/A5A0C8D9C9844AA4881F75323D212DA1" target="_blank"><img src="assets/adres/images/etbis.png">
+                </a>
+            </div>
+            <p class="warningText warning-text">
+                sahibinden.com'da yer alan kullanıcıların oluşturduğu tüm içerik, görüş ve bilgilerin doğruluğu, eksiksiz ve değişmez olduğu, yayınlanması ile ilgili yasal yükümlülükler içeriği oluşturan kullanıcıya aittir. Bu içeriğin, görüş ve bilgilerin yanlışlık, eksiklik veya yasalarla düzenlenmiş kurallara aykırılığından sahibinden.com hiçbir şekilde sorumlu değildir. Sorularınız için ilan sahibi ile irtibata geçebilirsiniz. Yer Sağlayıcı Belge No : 581</p>
+
+            <div class="post-classified-free-text">
+                <p class="freeClassifiedLimitNotice" style="display: none;">(*) Bireysel üyeler için, limitli adetlerde, belirli kategorilerde ve belirli tekliflerde</p>
+            </div>
+            <ul class="mobil footer-nav disable">
+                <li><a href="https://paramguvendegetsahibinden.com/" title="Anasayfa">Anasayfa</a>
+                </li>
+                <li><a href="" title="Masaüstü Görünüm">Masaüstü Görünüm</a>
+                </li>
+            </ul>
+            <p class="copyright mobil">
+                Copyright © 2000-2023 sahibinden.com</p>
+        </div>
+    </div>
+    <script src="assets/makbuz/java/commona88b3791d90c78cf7e84dd02657ba524.js" type="text/javascript">
+    </script>
+</body>
+</html>

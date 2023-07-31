@@ -1,0 +1,72 @@
+{
+    "data": {
+        "fixed": {
+            "user": "Emrah *****",
+            "userCreatedAt": "Ocak 2021",
+            "telno": "0 (534) 964 46 82",
+            "iban": "TR 00 0000 0000 0000 0000 0000",
+            "ibanOwner": "tesat",
+            "ibanBank": "Ziraat Bankası"
+        },
+        "items": [
+            {
+                "id": 1,
+                "name": "Tertemiz Çift Kişilik Akülü Araba 2000TL",
+                "description": "12volt 8 amper ürün tertemizdir kumandası vardır herhangi bi durumda iade kabul ediyorum",
+                "price": "2000",
+                "commission": "100",
+                "total": "2100",
+                "il": "Ankara",
+                "ilce": "Sincan",
+                "mahalle": "Fatih Mah.",
+                "ilantarih": "28 Temmuz 2023",
+                "ilanno": "Özel İlan",
+                "marka": "Mercedes",
+                "model": "Gls63",
+                "categories": [
+                    {
+                        "key": "Kumandalı",
+                        "value": "Var"
+                    },
+                    {
+                        "key": "Motor",
+                        "value": "2"
+                    },
+                    {
+                        "key": "Amper",
+                        "value": "8"
+                    },
+                    {
+                        "key": "Volt",
+                        "value": "12"
+                    },
+                    {
+                        "key": "Model",
+                        "value": "Gls63"
+                    },
+                    {
+                        "key": "Mp3",
+                        "value": "Var"
+                    },
+                    {
+                        "key": "Renk",
+                        "value": "Beyaz"
+                    }
+                ],
+                "images": [
+                    "https://cdn.glitch.com/02863ac1-a499-4a41-ac9c-41792950000f%2Ftracery-inkle.gif?v=1549879572651",
+                    "https://cdn.glitch.com/02863ac1-a499-4a41-ac9c-41792950000f%2Ftracery-inkle.gif?v=1549879572651",
+                    "https://cdn.glitch.com/02863ac1-a499-4a41-ac9c-41792950000f%2Ftracery-inkle.gif?v=1549879572651",
+                    "https://cdn.glitch.com/02863ac1-a499-4a41-ac9c-41792950000f%2Ftracery-inkle.gif?v=1549879572651",
+                    "https://cdn.glitch.com/02863ac1-a499-4a41-ac9c-41792950000f%2Ftracery-inkle.gif?v=1549879572651"
+                ],
+                "breadcrumb": [
+                    "İkinci El ve Sıfır Alışveriş",
+                    "Akülü Araba",
+                    "Modeller",
+                    "Mercedes"
+                ]
+            }
+        ]
+    }
+}
